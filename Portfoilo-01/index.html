@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/593c06c5fa.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  
+ <div id="header">
+    <div class="container">
+        <nav>
+            <!-- <ima src="Images/logoc.png"  -->
+        <ul>
+            <li><a href="#"> Home</a></li>
+            <li><a href="#"> About</a></li>
+            <li><a href="#"> Services</a></li>
+            <li><a href="#"> Projects</a></li>
+        </ul>
+    </nav>
+    <div class="header-text">
+        <h1>Hi Iam <span>Jayanth </span>!<br> <span>A</span>  creative <span>Designer </span></spanDesigner> <br>  <span>A</span> passionate <span >coder</span><br>who belives learning by<br> doing is best<br> way to evolve. </h1>
+    </div>
+    </div>
+    </div>
+    <!-- -----about-- -->
+
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="aboutcol1">
+                <!-- <img Src="../Images/image31.jpg" alt "">              -->
+                   <img class="abt_img" Src="../img/image7.png" alt="">
+            </div>
+            <div class="aboutcol2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Technology excites me, as an enthusiastic Computer Science I'm undergrad passionate about technology.  I really enjoy experiential learning. Competent in  Python, machine learning, web development, Competitive programming (C++).<br> I embrace a 'learning-by-doing' approach, frequently evolving my skills to solve complex problems and add value to society. And what I might lack in skills I make up for determination to learn.
+                    Outside of tech , I am an avid actor, animal lover ,likes to play chess, and spent my college days exploring theaters and restaurants.
+                 </p>
+                  <div class="tab-titles">
+                        <p class="tab-links  active-link" onclick="opentab('skills')">Skills </p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience  </p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+
+                  </div>   
+                  <div class="tab-contents active-tab" id="skills">
+                     <ul>
+                        <li><span>DSA(C++)</span><br>Problem Solving</li>
+                        <li><span>Web-Development</span><br>Front-end(HTML,CSS,JS)</li>
+                        
+
+                     </ul>
+                  </div>  
+                  <div class="tab-contents" id="experience">
+                    <ul>
+                       <li><span>Lorem ipsum dolor sit ame adipisicing elit.</span><br> Est necessitatibus fugiat dolor quisquam odit amet quam.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore odit atque aut! Cum sequi vel consequatur exercitationem numquam, earum a? Facilis cum enim voluptate adipisci hic officia perspiciatis laborum amet.
+                     voluptate ipsam, minima, iusto, optio ex laboriosam placeat deserunt repellat. Sunt quasi odit iste harum distinctio dolore libero cum eveniet enim.</li>
+                      
+                       
+
+                    </ul>
+                 </div>  
+                 <div class="tab-contents" id="education">
+                    <ul>
+                       <li><span>Guru Nanank Institution Technical Campus</span><br>Computer Science Engineering </li>
+                       <li><span>Grade</span><br> CGPA 7.5</li>
+
+                       
+
+                    </ul>
+                 </div>    
+            </div>
+        </div>
+    </div>
+ </div>
+ <!-- -------------------------services------------------- -->
+   
+   <div id="services">
+    <div class="container">
+        <h1  class="sub-title" id="k">My Services</h1>
+        <div class="services-list">
+            <div class="services-box">
+                <i class="fa-brands fa-medium"></i>     
+                        <h2>Wed design</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, adipisci, quisquam expedita fugit voluptatem reprehend</p>
+                <a href="#">Visit</a>
+            </div>
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h2>DSA Sheet</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, adipisci, quisquam expedita fugit voluptatem reprehend</p>
+                <a href="#">Visit</a>
+            </div>
+            <div class="services-box">
+                <i class="fa-brands fa-android"></i>
+                <h2>Ui/Ux design</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, adipisci, quisquam expedita fugit voluptatem reprehend</p>
+                <a href="#">Visit</a>
+            </div>
+        </div>
+    </div>
+   </div>
+   
+ <!-- -----------------------------Portfolio(projects)-------------   -->
+
+   <div id="projects">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                 <img Src="../img/work1.jpg" alt="">
+                 <div class="layer">
+                    <h3>Twitter Sentiment Analysis</h3>
+                    <p>This application analysis human expressions using NLP(Machine Learning Technique)</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                 </div>
+                 
+            </div>
+            <div class="work">
+                <img Src="../img/work2.jpg" alt="">
+                <div class="layer">
+                    <h3>Youtube video Summarizer</h3>
+                    <p>Collects the transcript and displays it for reference</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                 </div>
+           </div>
+           <div class="work">
+            <img Src="../img/work3.png" alt="">
+            <div class="layer">
+                <h3>Email Alerts </h3>
+                <p>This application integrated with twillo sends whatsapp notifications as per conditions written</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+             </div>
+       </div>
+        </div>
+    </div>
+   </div>
+   
+   <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for (tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+</html>
